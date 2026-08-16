@@ -195,3 +195,12 @@ figcaption > p {
   text-align: center;
   font-style: italic;
 }
+
+body.dark,
+body[data-theme="dark"],
+body[data-color-mode="dark"],
+.theme-dark {
+  --adm-bg: #1d1e20;
+  --adm-text: #e6e6e6;
+  --adm-code-bg: #313244;
+}
